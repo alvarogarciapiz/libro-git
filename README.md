@@ -245,9 +245,9 @@
 `git remote -v`
 
 ## EJERCICIO 2
-git push github master`
+`git push github master`
 
-(Importante, los cambios aparecen en la rama master y no es la main), se debe cambiar de rama para ver los cambios`
+`(Importante, los cambios aparecen en la rama master y no es la main), se debe cambiar de rama para ver los cambios`
 
 ## EJERCICIO 3
 
