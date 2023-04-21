@@ -2,8 +2,11 @@
 
 ## EJERCICIO 1
 `git config --global user.name "Alvaro Garcia Pizarro"`
+
 `git config --global user.email alvarogp99@ejemplo.com`
+
 `El color viene activado por defecto`
+
 `git config --list`
 
 ## EJERCICIO 2
