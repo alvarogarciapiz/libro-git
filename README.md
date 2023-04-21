@@ -250,6 +250,18 @@ Se modifica manualmente el fichero
 (Importante, los cambios aparecen en la rama master y no es la main), se debe cambiar de rama para ver los cambios
 
 ## EJERCICIO 3
+me dan acceso a su repo
+`git clone https://github.com/luis10laso/libro-git`
+
+`echo > autores.txt`
+
+`autores.txt`
+
+Se añade manualmente el nombre y nombre de usuario al repo
+
+`git add . git commit -m "Añado autor"`
+
+`git push`
 
 
 ## EJERCICIO 4 
