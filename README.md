@@ -32,20 +32,27 @@
 `git status`
 
 ## EJERCICIO 4
-git commit -m "Añadido índice del libro."
-git status
+`git commit -m "Añadido índice del libro."`
+
+`git status`
 
 ## EJERCICIO 5
-Se modifica manualmente el archivo
-git diff
-git add .
-git commit -m "Añadido capítulo 3 sobre gestión de ramas"
+`Se modifica manualmente el archivo`
+
+`git diff`
+
+`git add .`
+
+`git commit -m "Añadido capítulo 3 sobre gestión de ramas"`
 
 ## EJERCICIO 6
-git show
-git commit --amend
-En vim edito el contenido del commit
-git log / git show
+`git show`
+
+`git commit --amend`
+
+`En vim edito el contenido del commit`
+
+`git log / git show`
 
 
 # MANEJO DEL HISTORIAL DE CAMBIOS
