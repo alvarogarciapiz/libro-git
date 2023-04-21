@@ -91,7 +91,7 @@
 `git show`
 
 ## EJERCICIO 4
-`Se modifica manualmente el fichero de indice para incluir el capítulo 5`
+Se modifica manualmente el fichero de indice para incluir el capítulo 5
 
 `git add .`
 
@@ -103,7 +103,7 @@
 # DESHACER CAMBIOS
 
 ## EJERCICIO 1
-`Se elimina manualmente la última línea del fichero indice.txt`
+Se elimina manualmente la última línea del fichero indice.txt
 
 `git status`
 
@@ -112,7 +112,7 @@
 `git status`
 
 ## EJERCICIO 2
-`Se modifica manualmente el fichero de indice para eliminar su última línea`
+Se modifica manualmente el fichero de indice para eliminar su última línea
 
 `git add .`
 
@@ -127,7 +127,7 @@
 `git status`
 
 ## EJERCICIO 3
-`Se elimina la última línea del fichero indice a mano y se guarda`
+Se elimina la última línea del fichero indice a mano y se guarda
 
 `cd capitulos`
 
@@ -148,9 +148,9 @@
 `git status -- .`
 
 ## EJERCICIO 4
-`Se elimina la última línea del fichero indice.txt`
+Se elimina la última línea del fichero indice.txt
 
-`se elimina el fichero capitulo`
+se elimina el fichero capitulo
 
 `git add .`
 
@@ -216,7 +216,7 @@
 
 `bibliografia.txt`
 
-`Se modifica manualmente el contenido del fichero`
+Se modifica manualmente el contenido del fichero
 
 `git add .`
 
@@ -226,7 +226,7 @@
 
 `bibliografia.txt`
 
-`Se modifica manualmente el fichero`
+Se modifica manualmente el fichero
 
 `git add .`
 
@@ -247,13 +247,24 @@
 ## EJERCICIO 2
 `git push github master`
 
-`(Importante, los cambios aparecen en la rama master y no es la main), se debe cambiar de rama para ver los cambios`
+(Importante, los cambios aparecen en la rama master y no es la main), se debe cambiar de rama para ver los cambios
 
 ## EJERCICIO 3
 
 
 ## EJERCICIO 4 
-
+Se hace un fork desde https://github.com/asalber/libro-git
+Una vez hecho el fork me clono el proyecto a mi equipo
+`git clone https://github.com/asalber/libro-git`
+`cd libro-git`
+`git branch autoria`
+`autores.txt`
+Se añade manualmente mi Nombre y nombre de usuario
+`git add .`
+`git commit -m "Añadido un nuevo autor"`
+`git push origin autoria`
+Al no tener acceso a su repo nos salta un error de permisos
+Se hace el pull request desde github
 
 
 
