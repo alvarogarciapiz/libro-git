@@ -266,16 +266,27 @@ Se añade manualmente el nombre y nombre de usuario al repo
 
 ## EJERCICIO 4 
 Se hace un fork desde https://github.com/asalber/libro-git
+
 Una vez hecho el fork me clono el proyecto a mi equipo
+
 `git clone https://github.com/asalber/libro-git`
+
 `cd libro-git`
+
 `git branch autoria`
+
 `autores.txt`
+
 Se añade manualmente mi Nombre y nombre de usuario
+
 `git add .`
+
 `git commit -m "Añadido un nuevo autor"`
+
 `git push origin autoria`
+
 Al no tener acceso a su repo nos salta un error de permisos
+
 Se hace el pull request desde github
 
 
