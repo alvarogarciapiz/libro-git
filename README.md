@@ -10,18 +10,26 @@
 `git config --list`
 
 ## EJERCICIO 2
-mkdir libro
-cd libro
-git init
-dir
+`mkdir libro`
+
+`cd libro`
+
+`git init`
+
+`dir`
 
 ## EJERCICIO 3
-git status
-echo .>indice.txt
-Edito manualmente el fichero con el notepad para agregar la info
-git status
-git add .
-git status
+`git status`
+
+`echo .>indice.txt`
+
+`Edito manualmente el fichero con el notepad para agregar la info`
+
+`git status`
+
+`git add .`
+
+`git status`
 
 ## EJERCICIO 4
 git commit -m "Añadido índice del libro."
